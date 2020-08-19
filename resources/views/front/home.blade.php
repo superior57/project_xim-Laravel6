@@ -2,13 +2,38 @@
 
 @push('styles')
 <style>
-    section{
-        margin-bottom: 150px;
-    }
-    .section-reviews {
-        background: linear-gradient(70deg, #1b30ed 0% 30%, #1322a8 30% 100%);
+    
+
+    #owl-demo .item img{
+        display: block;
+        width: 100%;
+        height: auto;
     }
 </style>
+@endpush
+
+@push('scripts')
+<script>
+$(document).ready(function() {
+ 
+ $("#owl-demo").owlCarousel({
+
+     navigation : true, // Show next and prev buttons
+     slideSpeed : 300,
+     paginationSpeed : 400,
+     singleItem:true
+
+     // "singleItem:true" is a shortcut for:
+     // items : 1, 
+     // itemsDesktop : false,
+     // itemsDesktopSmall : false,
+     // itemsTablet: false,
+     // itemsMobile : false
+
+ });
+
+});
+</script>    
 @endpush
 
 @section('header')
@@ -87,7 +112,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="man-photo ftco-animate" style="background-image: url('{{ asset('images/person_1.jpg') }}');">
+                    <div class="man-photo ftco-animate" style="background-image: url('{{ asset('images/home/man-1.jpg') }}');">
                         <div class="quote-area">
                             <span class="icon-quote-left"></span>
                         </div>
@@ -109,7 +134,21 @@
         </div>
     </section>
 
-    <section class="ftco-section ftco-degree-bg services-section img mx-md-5"
+    {{-- <section class="ftco-section section-reviews">
+        <div class="container">
+          <div class="row ftco-animate">
+            <div class="col-md-12">
+                <div id="owl-demo" class="owl-carousel owl-theme"> 
+                    <div class="item"><img src="assets/fullimage1.jpg" alt="The Last of us"></div>
+                    <div class="item"><img src="assets/fullimage2.jpg" alt="GTA V"></div>
+                    <div class="item"><img src="assets/fullimage3.jpg" alt="Mirror Edge"></div>                   
+                </div>
+            </div>
+          </div>
+        </div>
+      </section> --}}
+
+    {{-- <section class="ftco-section ftco-degree-bg services-section img mx-md-5"
         style="background-image: url(images/bg_2.jpg);">
         <div class="overlay"></div>
         <div class="container">
@@ -468,7 +507,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 @endsection
 
 @section('footer')

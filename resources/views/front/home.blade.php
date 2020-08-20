@@ -64,7 +64,7 @@ $(document).ready(function() {
         </div>
     </div>
 
-    <section class="ftco-section ftco-no-pb">
+    <section class="ftco-section ftco-no-pb" style="margin-bottom: 150px;">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-12 heading-section text-center ftco-animate mb-5">
@@ -108,7 +108,7 @@ $(document).ready(function() {
         </div>
     </section>
 
-    <section class="ftco-section goto-here section-reviews">
+    <section class="ftco-section goto-here section-reviews mb-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -148,94 +148,55 @@ $(document).ready(function() {
         </div>
       </section> --}}
 
-    {{-- <section class="ftco-section ftco-degree-bg services-section img mx-md-5"
-        style="background-image: url(images/bg_2.jpg);">
-        <div class="overlay"></div>
+    <section class="ftco-section ftco-degree-bg services-section">
+        <div class="overlay" style="background-image: url({{ asset('images/home/desktop-1.png') }});">
+        </div>
         <div class="container">
-            <div class="row justify-content-start mb-5">
-                <div class="col-md-6 text-center heading-section heading-section-white ftco-animate">
-                    <span class="subheading">Work flow</span>
-                    <h2 class="mb-3">How it works</h2>
-                </div>
-            </div>
             <div class="row">
-                <div class="col-md-6">
-                    <div class="row">
-                        <div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
-                            <div class="media block-6 services services-2">
-                                <div class="media-body py-md-4 text-center">
-                                    <div class="icon mb-3 d-flex align-items-center justify-content-center">
-                                        <span>01</span></div>
-                                    <h3>Evaluate Property</h3>
-                                    <p>A small river named Duden flows by their place and supplies it with the necessary
-                                        regelialia.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
-                            <div class="media block-6 services services-2">
-                                <div class="media-body py-md-4 text-center">
-                                    <div class="icon mb-3 d-flex align-items-center justify-content-center">
-                                        <span>02</span></div>
-                                    <h3>Meet Your Agent</h3>
-                                    <p>A small river named Duden flows by their place and supplies it with the necessary
-                                        regelialia.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
-                            <div class="media block-6 services services-2">
-                                <div class="media-body py-md-4 text-center">
-                                    <div class="icon mb-3 d-flex align-items-center justify-content-center">
-                                        <span>03</span></div>
-                                    <h3>Close the Deal</h3>
-                                    <p>A small river named Duden flows by their place and supplies it with the necessary
-                                        regelialia.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
-                            <div class="media block-6 services services-2">
-                                <div class="media-body py-md-4 text-center">
-                                    <div class="icon mb-3 d-flex align-items-center justify-content-center">
-                                        <span>04</span></div>
-                                    <h3>Have Your Property</h3>
-                                    <p>A small river named Duden flows by their place and supplies it with the necessary
-                                        regelialia.</p>
-                                </div>
-                            </div>
+                <div class="col-md-5 text-left heading-section heading-section-dark ftco-animate pr-5">
+                    <h2 class="mb-5">Sed Ut Unde <br> Omnis Iste Natus</h2>
+                    <h4 class="pr-5 mb-5">Sed ut perspiciatis unde omnis <br> iste natus error sit voluptate</h4>
+                    <div class="row mb-5">
+                        <div class="col-md-4">
+                            <hr class="container-hr">
                         </div>
                     </div>
+                    <button class="btn btn-primary btn-learn-more">Learn More <span class="icon-long-arrow-right pl-1"></span></button>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="ftco-section ftco-no-pb">
+    <section class="ftco-section mb-5">
+        <div class="overlay" style="position: absolute;
+        top: 10rem;
+        left: 0;
+        right: auto;
+        bottom: 6rem;
+        content: '';
+        opacity: 1;
+        width: 528px;
+  height: 631px;
+  background-color: #1b30ed;
+        "></div>
         <div class="container">
             <div class="row no-gutters">
-                <div class="col-md-6 p-md-5 img img-2 d-flex justify-content-center align-items-center"
-                    style="background-image: url(images/about.jpg);">
+                <div class="col-md-6 p-md-5 img img-2 d-flex justify-content-center my-md-5 align-items-center"
+                    style="background-image: url(images/home/screen-1.png); z-index: 1; margin-50px;">
                 </div>
-                <div class="col-md-6 wrap-about py-md-5 ftco-animate">
-                    <div class="heading-section p-md-5">
-                        <h2 class="mb-4">We Put People First.</h2>
-
-                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.
-                            It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                        <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it
-                            would have been rewritten a thousand times and everything that was left from its origin
-                            would be the word "and" and the Little Blind Text should turn around and return to its own,
-                            safe country. But nothing the copy said could convince her and so it didn’t take long until
-                            a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged
-                            her into their agency, where they abused her for their.</p>
+                <div class="col-md-6 wrap-about ftco-animate">
+                    <div class="heading-section p-5 text-center" style="">
+                        <h2 class="mb-5" style="margin-top: 100px;">Sed Ut Unde <br> Omnis Iste Natus</h2>
+                        <h4 class="pr-5 mb-5">Sed ut perspiciatis unde omnis <br> iste natus error sit voluptate</h4>
+                        <hr class="container-hr mb-5">
+                        <button class="btn btn-primary btn-learn-more">Learn More <span class="icon-long-arrow-right pl-1"></span></button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <section class="ftco-counter img" id="section-counter">
+    
+    {{-- <section class="ftco-counter img" id="section-counter">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-lg-3 justify-content-center counter-wrap ftco-animate">
@@ -272,9 +233,9 @@ $(document).ready(function() {
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
-    <section class="ftco-section testimony-section">
+    {{-- <section class="ftco-section testimony-section">
         <div class="container">
             <div class="row justify-content-center mb-5">
                 <div class="col-md-7 text-center heading-section ftco-animate">
@@ -425,10 +386,10 @@ $(document).ready(function() {
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
 
-    <section class="ftco-section ftco-no-pt">
+    {{-- <section class="ftco-section ftco-no-pt">
         <div class="container">
             <div class="row justify-content-center mb-5">
                 <div class="col-md-7 heading-section text-center ftco-animate">

@@ -15,10 +15,10 @@
                 <div class="d-flex justify-content-sm-around w-100" >
                     <ul class="navbar-nav">
                         <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-                        <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-                        <li class="nav-item"><a href="agent.html" class="nav-link">How it works</a></li>
-                        <li class="nav-item"><a href="services.html" class="nav-link">FAQ</a></li>
-                        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">How it works</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">FAQ</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
                     </ul>                              
                 </div>
                 <div class="authentication-area header-end">

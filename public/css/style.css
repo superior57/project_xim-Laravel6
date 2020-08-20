@@ -11908,11 +11908,13 @@ h5,
 
 @media (min-width: 992px) {
     .wrap-about .heading-section {
-        margin-left: -120px;
+        margin-left: -50%;
         background: #fff;
-        -webkit-box-shadow: -20px 5px 14px -15px rgba(0, 0, 0, 0.13);
+        /* -webkit-box-shadow: -20px 5px 14px -15px rgba(0, 0, 0, 0.13);
         -moz-box-shadow: -20px 5px 14px -15px rgba(0, 0, 0, 0.13);
-        box-shadow: -20px 5px 14px -15px rgba(0, 0, 0, 0.13);
+        box-shadow: -20px 5px 14px -15px rgba(0, 0, 0, 0.13); */
+        /* width: 847px; */
+        height: 751px;
     }
 }
 
@@ -11923,14 +11925,18 @@ h5,
 
 .services-section .overlay {
     position: absolute;
-    width: 50%;
-    top: 0;
-    left: 0;
+    /* width: 50%; */
+    width: 734px;
+    height: 478px;
+    top: 6rem;
+    left: auto;
     right: 0;
-    bottom: 0;
+    bottom: 6rem;
     content: '';
     opacity: 1;
-    background: #000000;
+    background: #00000000;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 @media (max-width: 767.98px) {
@@ -13631,6 +13637,11 @@ textarea.form-control {
     background-color: #ffffff;
     color: #000000;
     padding: 40px;
+    cursor: pointer;
+}
+
+.sed-card:hover {
+    box-shadow: 0 40px 50px 0 rgba(27, 48, 237, 0.08);
 }
 
 .sed-card h3 {
@@ -13685,7 +13696,7 @@ textarea.form-control {
     background-size: cover;
     display: flex;
     justify-content: flex-end;
-    padding: 63px 0;
+    padding: 78px 0;
 }
 
 .man-photo .quote-area {
@@ -13701,6 +13712,21 @@ textarea.form-control {
     box-shadow: 0px 0px 0px 15px rgba(255, 255, 255, 0.11);
 }
 
+.man-photo .quote-area:hover {
+    animation-name: quote-animate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes quote-animate {
+    from {
+        box-shadow: 0px 0px 0px 15px rgba(255, 255, 255, 0.11)
+    }
+    to {
+        box-shadow: 0px 0px 0px 20px rgba(255, 255, 255, 0.11)
+    }
+}
+
 .man-photo .quote-area span {
     /* font-family: FontAwesome5Pro-Solid; */
     font-size: 65px;
@@ -13713,7 +13739,7 @@ textarea.form-control {
 }
 
 section {
-    margin-bottom: 150px;
+    /* margin-bottom: 150px; */
 }
 
 .section-reviews {
@@ -13752,7 +13778,7 @@ section {
 .section-reviews .description h4 {
     font-size: 15px;
     font-weight: 600;
-    color: #b5bdff;
+    color: #fff;
 }
 
 .section-reviews .description h4 span {
@@ -13785,4 +13811,16 @@ section {
 .footer-logo img {
     width: 250px;
     margin-top: -30px;
+}
+
+.heading-section-dark h2 {
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.52;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
 }
